@@ -257,6 +257,7 @@ ul {
     left: 0;
   }
   #services .text-area h1 {
+    color: #FD0988 !important;
     font-weight: 700;
     font-size: 48px;
   }
