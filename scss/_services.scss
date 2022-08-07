@@ -1,0 +1,107 @@
+/* ==========================
+===== services css ends =====
+============================= */
+#services{
+  background: #111111;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  .text-area{
+    h6{
+      color: #888888;
+      padding-left: 100px;
+      font-size: 18px;
+      margin-bottom: 20px;
+      position: relative;
+      &::before{
+        content: '';
+        height: 1px;
+        width: 60px;
+        background: #df0a80;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+      }
+    }
+    h1{
+      font-weight: 700;
+      font-size: 48px;
+      span{
+        color: #df0a80;
+      }
+    }
+    p{
+      margin-top: 20px;
+      font-size: 14px;
+      padding-right: 170px;
+    }
+  }
+  .button-area{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    a{
+      border: 1px solid #fff;
+      padding: 12px 50px;
+      border-radius: 50px;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 14px;
+      transition: all linear 0.4s;
+      &:hover{
+        background: linear-gradient(90deg, var(--c1, #fd0988), var(--c2, #7237BD) 51%, var(--c1, #fd0988)) var(--x, 100%)/ 200%;
+        border-color: transparent;
+      }
+    }
+  }
+  .items-area{
+    margin-top: 100px;
+    .item{
+      background: #17173d;
+      text-align: center;
+      padding: 20px;
+      border-radius: 20px;
+      position: relative;
+      cursor: pointer;
+      &:hover{
+        background: linear-gradient(45deg, #FD0988, #7237BD);
+      }
+      .icon{
+        i{
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          top: -40px;
+          background: #ffffff;
+          height: 80px;
+          width: 80px;
+          border-radius: 15px;
+          line-height: 80px;
+          text-align: center;
+          font-size: 30px;
+          cursor: pointer;
+          transition: all linear 0.4s;
+          &:hover{
+            background: #fb0787;
+            color: #fff;
+          }
+        }
+      }
+      h4{
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 50px;
+      }
+      p{
+        font-size: 14px;
+        color: #b6b6b6;
+        margin-top: 10px;
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+/* ============================
+===== services css starts =====
+=============================== */

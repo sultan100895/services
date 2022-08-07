@@ -1,0 +1,27 @@
+/*=============================
+  ===== common css starts =====
+===============================*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  vertical-align: middle;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+/*===========================
+  ===== common css ends =====
+=============================*/
+
+@import 'services.scss';
+@import 'responsive.scss';
